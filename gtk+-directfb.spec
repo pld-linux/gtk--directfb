@@ -7,6 +7,7 @@ Epoch:		1
 License:	LGPL
 Group:		Libraries
 Source0:	http://www.directfb.org/download/GTK+-DirectFB/%{name}-%{version}.tar.gz
+# Source0-md5:	37c6e6d9ea32ac57f192413bb46b13a6
 #Patch0:	%{name}-info.patch
 #Patch1:	%{name}-ahiguti.patch
 Patch2:		%{name}-strip.patch
