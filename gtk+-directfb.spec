@@ -38,7 +38,7 @@ Biblioteka GTK+ wraz ze wsparciem dla DirectFB
 Summary:	Gtk+-DirectFB header files and development documentation
 Summary(pl):	Pliki nag³ówkowe i dokumentacja do Gtk+-DirectFB
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{epoch}:%{version}
 Requires:	glib-devel >= %{version}
 Requires:	autoconf >= 2.13
 Requires:	automake >= 1.4
@@ -59,7 +59,7 @@ Pliki nag³ówkowe i dokumentacja do bibliotek Gtk+.
 Summary:	Gtk+ static libraries
 Summary(pl):	Biblioteki statyczne Gtk+
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{epoch}:%{version}
 
 %description static
 Gtk+ static libraries.
