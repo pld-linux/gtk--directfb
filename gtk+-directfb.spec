@@ -138,7 +138,7 @@ rm -rf $RPM_BUILD_ROOT
 %lang(ro) %{_sysconfdir}/gtk/gtkrc.ro
 %lang(ru) %{_sysconfdir}/gtk/gtkrc.ru*
 %lang(sk) %{_sysconfdir}/gtk/gtkrc.sk
-%lang(sp) %{_sysconfdir}/gtk/gtkrc.sp
+%lang(sr) %{_sysconfdir}/gtk/gtkrc.sp
 %lang(sl) %{_sysconfdir}/gtk/gtkrc.sl
 %lang(sq) %{_sysconfdir}/gtk/gtkrc.sq
 %lang(sr) %{_sysconfdir}/gtk/gtkrc.sr
@@ -151,7 +151,7 @@ rm -rf $RPM_BUILD_ROOT
 %lang(be,bg,mk,ru,sr,uk) %{_sysconfdir}/gtk/gtkrc.cp1251
 %lang(he,yi) %{_sysconfdir}/gtk/gtkrc.cp1255
 %lang(cs,hr,hu,pl,ro,sk,sl,sq,sr) %{_sysconfdir}/gtk/gtkrc.iso-8859-2
-%lang(bg,mk,ru,sp,sr,uk) %{_sysconfdir}/gtk/gtkrc.iso-8859-5
+%lang(bg,mk,ru,sr,uk) %{_sysconfdir}/gtk/gtkrc.iso-8859-5
 %lang(et,lt,lv) %{_sysconfdir}/gtk/gtkrc.iso-8859-13
 %lang(br,cy,ga) %{_sysconfdir}/gtk/gtkrc.iso-8859-14
 %{_sysconfdir}/gtk/gtkrc.iso-8859-15
