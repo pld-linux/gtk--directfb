@@ -74,7 +74,7 @@ Biblioteki statyczne Gtk+
 %patch2 -p0
 
 %build
-gettextize --copy --force
+%{__gettextize}
 aclocal
 %{__automake}
 %{__autoconf}
