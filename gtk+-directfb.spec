@@ -35,12 +35,12 @@ GTK+ with DirectFB support.
 Biblioteka GTK+ wraz ze wsparciem dla DirectFB
 
 %package devel
-Summary:	Gtk+-DirectFB header files and development documentation
-Summary(pl):	Pliki nag³ówkowe i dokumentacja do Gtk+-DirectFB
+Summary:	GTK+-DirectFB header files and development documentation
+Summary(pl):	Pliki nag³ówkowe i dokumentacja do GTK+-DirectFB
 Group:		Development/Libraries
-# Every program using gtk+ should get a list of libraries to link with by
+# Every program using GTK+ should get a list of libraries to link with by
 # executing `gtk-config --libs`. All libraries listed below are returned by
-# this call, so they are required by every program compiled with gtk+.
+# this call, so they are required by every program compiled with GTK+.
 #Requires:	XFree86-devel
 Requires:	autoconf >= 2.13
 Requires:	automake >= 1.4
@@ -49,22 +49,22 @@ Requires:	%{name} = %{epoch}:%{version}
 Requires:	libtool >= 1.3.2
 
 %description devel
-Header files and development documentation for the Gtk+ libraries.
+Header files and development documentation for the GtK+ libraries.
 
 %description devel -l pl
-Pliki nag³ówkowe i dokumentacja do bibliotek Gtk+.
+Pliki nag³ówkowe i dokumentacja do bibliotek GTK+.
 
 %package static
-Summary:	Gtk+ static libraries
-Summary(pl):	Biblioteki statyczne Gtk+
+Summary:	GTK+ static libraries
+Summary(pl):	Biblioteki statyczne GTK+
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{epoch}:%{version}
 
 %description static
-Gtk+ static libraries.
+GTK+ static libraries.
 
 %description static -l pl
-Biblioteki statyczne Gtk+
+Biblioteki statyczne GTK+
 
 %prep
 %setup  -q
