@@ -40,3 +40,22 @@
  
  # we use our own built_sources variable rules to avoid automake's
  # BUILT_SOURCES oddities
+--- demos/gtk-demo/Makefile.am.org	Tue Feb 20 02:37:27 2001
++++ demos/gtk-demo/Makefile.am	Mon May  7 10:38:05 2001
+@@ -2,14 +2,13 @@
+ 
+ democodedir=$(datadir)/gtk-2.0/demo
+ 
+-demos = @STRIP_BEGIN@	\
++demos = \
+ 	button_box.c	\
+ 	item_factory.c	\
+ 	menus.c		\
+ 	panes.c		\
+ 	dialog.c	\
+-	textview.c	\
+-@STRIP_END@
++	textview.c
+ 
+ INCLUDES = @STRIP_BEGIN@ \
+ 	-DDEMOCODEDIR="\"$(democodedir)\""		\
