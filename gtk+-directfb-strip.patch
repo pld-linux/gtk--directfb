@@ -1,0 +1,42 @@
+--- gdk/Makefile.am.org	Thu Apr 19 22:58:32 2001
++++ gdk/Makefile.am	Mon May  7 10:29:19 2001
+@@ -84,7 +84,7 @@
+ 	gdkprivate.h		  \
+ @STRIP_END@
+ 
+-gdk_c_sources = @STRIP_BEGIN@ 	\
++gdk_c_sources =	\
+ 	gdk.c			\
+ 	gdkcolor.c		\
+ 	gdkcursor.c		\
+@@ -107,8 +107,7 @@
+ 	gdkrectangle.c		\
+ 	gdkregion-generic.c	\
+ 	gdkregion-generic.h	\
+-	gdkwindow.c		\
+-@STRIP_END@
++	gdkwindow.c
+ 
+ #
+ # setup GDK sources and their dependancies
+--- gtk/Makefile.am.org	Thu Apr 19 22:58:32 2001
++++ gtk/Makefile.am	Mon May  7 10:30:10 2001
+@@ -207,7 +207,7 @@
+ 	gtkwindow-decorate.h    \
+ @STRIP_END@
+ # GTK+ C sources to build the library from
+-gtk_c_sources = @STRIP_BEGIN@   \
++gtk_c_sources = \
+ 	gtkaccelgroup.c		\
+ 	gtkaccellabel.c		\
+ 	gtkadjustment.c		\
+@@ -358,8 +358,7 @@
+ 	gtkwindow.c		\
+ 	gtkwindow-decorate.c    \
+ 	fnmatch.c		\
+-	fnmatch.h		\
+-@STRIP_END@
++	fnmatch.h
+ 
+ # we use our own built_sources variable rules to avoid automake's
+ # BUILT_SOURCES oddities
