@@ -21,7 +21,7 @@ BuildRequires:	autoconf
 BuildRequires:	gettext-devel
 BuildRequires:	glib-devel >= %{version}
 BuildRequires:	libtool
-Buildrequires:	pkgconfig
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr
