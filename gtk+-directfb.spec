@@ -13,7 +13,7 @@ Group(pl):	Biblioteki
 Source0:	http://www.directfb.org/download/GTK+-DirectFB/%{name}-%{version}.tar.gz
 #Patch0:	%{name}-info.patch
 #Patch1:	%{name}-ahiguti.patch
-#Patch2:	%{name}-strip.patch
+Patch2:	%{name}-strip.patch
 URL:		http://directfb.org/
 Icon:		gtk+.xpm
 Requires:	glib >= %{version}
@@ -81,7 +81,7 @@ Biblioteki statyczne Gtk+
 %setup  -q
 #%patch0 -p1
 #%patch1 -p1
-#%patch2 -p1
+%patch2 -p0
 
 %build
 gettextize --copy --force
