@@ -6,13 +6,6 @@ Release:	1
 Epoch:		1
 License:	LGPL
 Group:		Libraries
-Group(de):	Libraries
-Group(es):	Bibliotecas
-Group(fr):	Librairies
-Group(pl):	Biblioteki
-Group(pt_BR):	Bibliotecas
-Group(ru):	Библиотеки
-Group(uk):	Б╕бл╕отеки
 Source0:	http://www.directfb.org/download/GTK+-DirectFB/%{name}-%{version}.tar.gz
 #Patch0:	%{name}-info.patch
 #Patch1:	%{name}-ahiguti.patch
@@ -45,13 +38,6 @@ Biblioteka GTK+ wraz ze wsparciem dla DirectFB
 Summary:	Gtk+-DirectFB header files and development documentation
 Summary(pl):	Pliki nagЁСwkowe i dokumentacja do Gtk+-DirectFB 
 Group:		Development/Libraries
-Group(de):	Entwicklung/Libraries
-Group(es):	Desarrollo/Bibliotecas
-Group(fr):	Development/Librairies
-Group(pl):	Programowanie/Biblioteki
-Group(pt_BR):	Desenvolvimento/Bibliotecas
-Group(ru):	Разработка/Библиотеки
-Group(uk):	Розробка/Б╕бл╕отеки
 Requires:	%{name} = %{version}
 Requires:	glib-devel >= %{version}
 Requires:	autoconf >= 2.13
@@ -73,13 +59,6 @@ Pliki nagЁСwkowe i dokumentacja do bibliotek Gtk+.
 Summary:	Gtk+ static libraries
 Summary(pl):	Biblioteki statyczne Gtk+
 Group:		Development/Libraries
-Group(de):	Entwicklung/Libraries
-Group(es):	Desarrollo/Bibliotecas
-Group(fr):	Development/Librairies
-Group(pl):	Programowanie/Biblioteki
-Group(pt_BR):	Desenvolvimento/Bibliotecas
-Group(ru):	Разработка/Библиотеки
-Group(uk):	Розробка/Б╕бл╕отеки
 Requires:	%{name}-devel = %{version}
 
 %description static
