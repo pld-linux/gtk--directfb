@@ -10,6 +10,9 @@ Group(de):	Libraries
 Group(es):	Bibliotecas
 Group(fr):	Librairies
 Group(pl):	Biblioteki
+Group(pt_BR):	Bibliotecas
+Group(ru):	Библиотеки
+Group(uk):	Б╕бл╕отеки
 Source0:	http://www.directfb.org/download/GTK+-DirectFB/%{name}-%{version}.tar.gz
 #Patch0:	%{name}-info.patch
 #Patch1:	%{name}-ahiguti.patch
