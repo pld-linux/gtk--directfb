@@ -9,7 +9,7 @@ Group:		Libraries
 Source0:	http://www.directfb.org/download/GTK+-DirectFB/%{name}-%{version}.tar.gz
 #Patch0:	%{name}-info.patch
 #Patch1:	%{name}-ahiguti.patch
-Patch2:	%{name}-strip.patch
+Patch2:		%{name}-strip.patch
 URL:		http://directfb.org/
 Icon:		gtk+.xpm
 Requires:	glib >= %{version}
@@ -36,7 +36,7 @@ Biblioteka GTK+ wraz ze wsparciem dla DirectFB
 
 %package devel
 Summary:	Gtk+-DirectFB header files and development documentation
-Summary(pl):	Pliki nag³ówkowe i dokumentacja do Gtk+-DirectFB 
+Summary(pl):	Pliki nag³ówkowe i dokumentacja do Gtk+-DirectFB
 Group:		Development/Libraries
 Requires:	%{name} = %{version}
 Requires:	glib-devel >= %{version}
@@ -52,7 +52,7 @@ Requires:	glib-devel
 %description devel
 Header files and development documentation for the Gtk+ libraries.
 
-%description -l pl devel
+%description devel -l pl
 Pliki nag³ówkowe i dokumentacja do bibliotek Gtk+.
 
 %package static
@@ -64,7 +64,7 @@ Requires:	%{name}-devel = %{version}
 %description static
 Gtk+ static libraries.
 
-%description -l pl static
+%description static -l pl
 Biblioteki statyczne Gtk+
 
 %prep
