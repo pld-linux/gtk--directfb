@@ -76,8 +76,8 @@ Biblioteki statyczne Gtk+
 %build
 gettextize --copy --force
 aclocal
-automake -a -c -f
-autoconf
+%{__automake}
+%{__autoconf}
 %configure \
 	--enable-debug=no \
 	--enable-shm \
