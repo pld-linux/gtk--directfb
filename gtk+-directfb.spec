@@ -74,8 +74,9 @@ Biblioteki statyczne Gtk+
 %patch2 -p0
 
 %build
+rm -f missing
 %{__gettextize}
-aclocal
+%{__aclocal}
 %{__automake}
 %{__autoconf}
 %configure \
@@ -93,8 +94,6 @@ install -d $RPM_BUILD_ROOT%{_libdir}/gtk/themes/engines
 	DESTDIR=$RPM_BUILD_ROOT \
 	m4datadir=%{_aclocaldir} \
 	pkgconfigdir=%{_pkgconfigdir}
-
-gzip -9nf AUTHORS ChangeLog NEWS README TODO
 
 %find_lang %{name}
 
@@ -166,7 +165,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_libdir}/lib*.la
 %attr(755,root,root) %{_libdir}/lib*.so
 %attr(755,root,root) %{_bindir}/*
