@@ -25,7 +25,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr
 %define		_infodir	/usr/share/info
-%define		_mandir		/usr/share/man
 %define		_sysconfdir	%{_datadir}
 
 %description
