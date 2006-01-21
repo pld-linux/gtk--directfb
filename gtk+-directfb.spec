@@ -12,7 +12,6 @@ Source0:	http://www.directfb.org/download/GTK+-DirectFB/%{name}-%{version}.tar.g
 #Patch1:	%{name}-ahiguti.patch
 Patch2:		%{name}-strip.patch
 URL:		http://directfb.org/
-Icon:		gtk+.xpm
 Requires:	glib >= %{version}
 Requires:	iconv
 #BuildRequires:	XFree86-devel
