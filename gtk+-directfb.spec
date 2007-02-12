@@ -1,5 +1,5 @@
 Summary:	The Gimp Toolkit with DirectFB Support
-Summary(pl):	Gimp Toolkit ze wsparciem dla DirectFB
+Summary(pl.UTF-8):   Gimp Toolkit ze wsparciem dla DirectFB
 Name:		gtk+-directfb
 Version:	1.3.4
 Release:	2
@@ -30,12 +30,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 GTK+ with DirectFB support.
 
-%description -l pl
+%description -l pl.UTF-8
 Biblioteka GTK+ wraz ze wsparciem dla DirectFB
 
 %package devel
 Summary:	GTK+-DirectFB header files and development documentation
-Summary(pl):	Pliki nag≥Ûwkowe i dokumentacja do GTK+-DirectFB
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe i dokumentacja do GTK+-DirectFB
 Group:		Development/Libraries
 # Every program using GTK+ should get a list of libraries to link with by
 # executing `gtk-config --libs`. All libraries listed below are returned by
@@ -50,19 +50,19 @@ Requires:	libtool >= 1.3.2
 %description devel
 Header files and development documentation for the GtK+ libraries.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe i dokumentacja do bibliotek GTK+.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe i dokumentacja do bibliotek GTK+.
 
 %package static
 Summary:	GTK+ static libraries
-Summary(pl):	Biblioteki statyczne GTK+
+Summary(pl.UTF-8):   Biblioteki statyczne GTK+
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{epoch}:%{version}
 
 %description static
 GTK+ static libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Biblioteki statyczne GTK+
 
 %prep
