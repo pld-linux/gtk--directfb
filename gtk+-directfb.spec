@@ -17,7 +17,7 @@ Requires:	iconv
 #BuildRequires:	XFree86-devel
 BuildRequires:	automake
 BuildRequires:	autoconf
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib-devel >= %{version}
 BuildRequires:	libtool
 BuildRequires:	pkgconfig
