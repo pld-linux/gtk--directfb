@@ -67,8 +67,8 @@ Biblioteki statyczne GTK+
 
 %prep
 %setup  -q
-#%patch0 -p1
-#%patch1 -p1
+#%%patch0 -p1
+#%%patch1 -p1
 %patch -P2 -p0
 
 %build
